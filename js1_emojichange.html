@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Project-1</title>
+        <style>
+            body{
+                background-color: rgb(226, 246, 129);
+            }
+            .container{
+                width: 20%;
+                height: auto;
+                padding: 50px 30px;
+                margin: 250px 40%;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 5px 5px 10px 5px gray;
+                border-radius: 10px;
+            }
+            img{
+                width: 60%;
+                margin-left: 50px;
+            }
+            button{
+                width: 32%;
+                height: 30px;
+                font-size: 16px;
+                font-weight: bold;
+                background:linear-gradient(45deg,rgb(255, 208, 0),rgb(255, 184, 5));
+                border: none;
+                border-radius: 10px;
+            }
+            button:hover{
+                border: 2px solid rgb(121, 15, 15);
+            }
+            center{
+                color: rgb(114, 114, 88);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="woww.jpg" alt="woww" id="woww" ><br/>
+            <button onclick="document.getElementById('woww').src='cry.jpg'">Cry</button>
+            <button onclick="document.getElementById('woww').src='smile.jpg'">Smile</button>
+            <button onclick="document.getElementById('woww').src='woww.jpg'">Amazing</button>
+            <p><center>Creation By Chit Min Thu at Hi-Tech</center></p>
+        </div>
+        
+    </body>
+</html>
